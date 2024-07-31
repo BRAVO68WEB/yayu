@@ -1,0 +1,7 @@
+{
+    "creds": { "email": "", "pass": "", "recoveryemail": "" },
+    "upload_path": "C:\\Users\\username\\Videos\\Valorant",
+    "delete_after_upload": false,
+    "upload_preserse": "UNLISTED",
+    "show_browser": false
+}

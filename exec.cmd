@@ -1,3 +1,3 @@
 @ECHO OFF
-bun install
+npm install
 bun run index.ts

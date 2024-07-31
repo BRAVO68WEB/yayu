@@ -1,15 +1,16 @@
 # yet-another-youtube-uploader (yayu)
 
-To run, install bun:
+Install bun and nodejs
+
+- https://bun.sh
+- https://nodejs.org
+
+To use, run this on CMD:
 
 ```bash
-bun install
+.\exec.cmd
 ```
 
-To run:
+or
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.1.14. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+Double click on "exec.cmd"

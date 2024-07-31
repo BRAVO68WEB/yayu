@@ -27,7 +27,7 @@ files.forEach((file) => {
     uploadArray.push(video);
 });
 
-await upload(config.creds, [...uploadArray], {headless: config.show_browser}).then(console.log)
+await upload(config.creds, [...uploadArray], {headless: !config.show_browser}).then(console.log)
 
 if(config.delete_after_upload) {
     for(const file of uploadArray) {
